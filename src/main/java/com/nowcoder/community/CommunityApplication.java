@@ -7,7 +7,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class CommunityApplication {
 
 	public static void main(String[] args) {
-		System.out.println("中文");
 		SpringApplication.run(CommunityApplication.class, args);
 	}
 

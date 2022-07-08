@@ -78,7 +78,7 @@ public class User {
 		this.activationCode = activationCode;
 	}
 
-	public String getHeadUrl() {
+	public String getHeaderUrl() {
 		return headerUrl;
 	}
 
@@ -105,7 +105,7 @@ public class User {
 				", type=" + type +
 				", status=" + status +
 				", activationCode='" + activationCode + '\'' +
-				", headUrl='" + headerUrl + '\'' +
+				", headerUrl='" + headerUrl + '\'' +
 				", createTime=" + createTime +
 				'}';
 	}
